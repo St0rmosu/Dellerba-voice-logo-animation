@@ -97,12 +97,6 @@ Nessuna API esterna: il progetto è un puro script di rendering offline. Le unic
 - **Animazione simmetrica via rate function**: `there_and_back` garantisce che caps e barre si muovano specularmente sopra/sotto lo zero, mantenendo il design coerente.
 - **Coordinate parametriche**: altezze, posizioni e spessori delle barre sono definiti in liste, per ritoccare il design senza riscrivere le animazioni.
 
-## Testing
-
-- Verifica visiva del render (allineamento del testo, simmetria dell'equalizzatore, tempi delle transizioni).
-- Riga di comando Manim con esecuzione senza errori e controllo del frame rate nel file generato.
-- Nessuna suite di test automatica (progetto di animazione).
-
 ## Limitations & Future Improvements
 
 - Font "Aerospace Bold" richiesto dal codice: se assente, Manim usa un fallback e il testo potrebbe apparire diverso.
