@@ -14,11 +14,9 @@ Animazione del logo della web radio scolastica **"Dell'Erba Voice"**, realizzata
 
 ## Tech Stack
 
-| Tecnologia | Ruolo |
-|---|---|
-| Python 3 | Linguaggio di scripting |
-| Manim (Community Edition) | Motore di animazione matematica |
-| FFmpeg | Pipeline di rendering video (dipendenza di Manim) |
+- **Python 3** — Scripting e logica di generazione delle forme geometriche
+- **Manim (Community Edition)** — Engine matematico per animazioni vettoriali fluide
+- **FFmpeg** — Pipeline di encoding video e rendering ad alto frame-rate
 
 ## Architettura
 
