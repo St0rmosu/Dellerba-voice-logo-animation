@@ -79,11 +79,9 @@ Le qualità disponibili: `-q l` (480p), `-q m` (720p), `-q h` (1080p), `-q k` (2
 cp "media/videos/LogoRadio/720p30/LogoRadio.mp4" .
 ```
 
-> Nota: la scena imposta `self.renderer.camera.frame_rate = 120`, quindi verifica che il file generato usi i 120 fps.
-
 ## Screenshots / Demo
 
-<video src="LogoRadio.mp4" controls width="640"></video>
+Animazione video ad alta risoluzione (1080p @ 120 fps) generata con Manim e disponibile in formato `LogoRadio.mp4`.
 
 ## API Documentation
 
