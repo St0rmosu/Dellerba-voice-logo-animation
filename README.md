@@ -22,19 +22,7 @@ Animazione del logo della web radio scolastica Dell'Erba Voice, realizzata con l
 
 Una singola scena `LogoRadio` orchestra tutte le animazioni in sequenza:
 
-```mermaid
-flowchart TD
-    A["Scene: LogoRadio"] --> B["1. Equalizzatore (7 barre)"]
-    B --> B1["wave simmetrica"]
-    B --> B2["compattazione"]
-    B --> B3["espansione"]
-    A --> C["2. Write DELL'ERBA VOICE"]
-    A --> D["3. Pulsazione del titolo"]
-    A --> E["4. Fade out finale"]
-    A --> F[Manim]
-    F --> G[FFmpeg]
-    G --> H[LogoRadio.mp4]
-```
+![Diagramma architettura](docs/architecture.png)
 
 Gli elementi base sono `Line` (barre), `Dot` (caps) e `Text`; l'animazione simmetrica superiore/inferiore è ottenuta con `put_start_and_end_on` e `there_and_back` come rate function.
 
